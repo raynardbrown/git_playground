@@ -1,0 +1,1 @@
+# Project for used testing various Git scenarios.
