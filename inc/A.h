@@ -13,6 +13,9 @@
 #ifndef A_H_
 #define A_H_
 
+/**
+ * The A class.
+ */
 class A
 {
   public:
