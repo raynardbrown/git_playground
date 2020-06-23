@@ -20,8 +20,14 @@ class A
 {
   public:
 
+    /**
+     * Constructor
+     */
     A();
 
+    /**
+     * Destructor
+     */
     ~A();
 };
 #endif /* A_H_ */
