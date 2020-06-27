@@ -13,6 +13,8 @@
 #ifndef A_H_
 #define A_H_
 
+class B;
+
 /**
  * The A class.
  */
@@ -23,7 +25,7 @@ class A
     /**
      * Constructor
      */
-    A();
+    A(B * b);
 
     /**
      * Destructor
