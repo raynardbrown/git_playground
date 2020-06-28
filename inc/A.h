@@ -24,6 +24,8 @@ class A
 
     /**
      * Constructor
+     *
+     * @param[in] b the B used to initialize this A.
      */
     A(B * b);
 
