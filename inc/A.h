@@ -33,5 +33,9 @@ class A
      * Destructor
      */
     ~A();
+
+  private:
+
+    B * b;
 };
 #endif /* A_H_ */
