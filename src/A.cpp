@@ -15,6 +15,7 @@
 #include "A.h"
 
 A::A(B * b)
+:b(b)
 {
 
 }
