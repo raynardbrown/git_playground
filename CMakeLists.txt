@@ -25,7 +25,8 @@ list(APPEND Headers ${Boost_INCLUDE_DIRS})
 ################################################################################
 
 list(APPEND Sources src/A.cpp
-                    src/B.cpp)
+                    src/B.cpp
+                    src/maincli.cpp)
 
 if (MSVC)
     add_compile_options(-Zi
