@@ -13,6 +13,8 @@
 #ifndef A_H_
 #define A_H_
 
+#include <memory>
+
 class B;
 
 /**
@@ -27,7 +29,7 @@ class A
      *
      * @param[in] b the B used to initialize this A.
      */
-    A(B * b);
+    A(std::auto_ptr<B> b);
 
     /**
      * Destructor
@@ -36,6 +38,6 @@ class A
 
   private:
 
-    B * b;
+    std::auto_ptr<B> b;
 };
 #endif /* A_H_ */
