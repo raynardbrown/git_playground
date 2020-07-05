@@ -14,7 +14,7 @@
 
 #include "A.h"
 
-A::A(B * b)
+A::A(std::auto_ptr<B> b)
 :b(b)
 {
 
