@@ -36,6 +36,8 @@ class A
      */
     ~A();
 
+    B * getB() const;
+
   private:
 
     std::auto_ptr<B> b;
