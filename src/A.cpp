@@ -24,3 +24,8 @@ A::~A()
 {
 
 }
+
+B * A::getB() const
+{
+  return b.get();
+}
