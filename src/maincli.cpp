@@ -17,6 +17,8 @@ int main(int argc, char ** argv)
 {
   A a(new B());
 
+  B * b = a.getB();
+
   return 0;
 }
 
