@@ -13,10 +13,16 @@
 #ifndef B_H_
 #define B_H_
 
+#include <string>
+
 class B
 {
   public:
+
     B();
+
     ~B();
+
+    std::string sayB() const;
 };
 #endif /* B_H_ */
