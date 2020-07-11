@@ -19,3 +19,8 @@ B::B()
 B::~B()
 {
 }
+
+std::string B::sayB() const
+{
+  return "B";
+}
